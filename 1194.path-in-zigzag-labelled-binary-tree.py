@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1194 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def pathInZigZagTree(self, label: int) -> list[int]:
         listed = []

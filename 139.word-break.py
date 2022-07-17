@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=139 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # S(l, r) = max(
 #   -- expand existing word    
 #   max(r, S(l, r+1)), 

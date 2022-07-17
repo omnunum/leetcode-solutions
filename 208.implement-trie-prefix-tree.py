@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=208 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import deque
 class Trie:
 

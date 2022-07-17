@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1190 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def findSmallestRegion(self, regions: list[list[str]], region1: str, region2: str) -> str:
         graph = {}

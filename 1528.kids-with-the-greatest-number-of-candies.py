@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1528 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def kidsWithCandies(self, candies: list[int], extraCandies: int) -> list[bool]:
         most = max(candies)

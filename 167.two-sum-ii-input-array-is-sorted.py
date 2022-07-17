@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=167 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 
 class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:

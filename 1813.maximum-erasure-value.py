@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1813 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def maximumUniqueSubarray(self, nums: list[int]) -> int:
         lower = upper = 0 

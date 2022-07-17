@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=104 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:

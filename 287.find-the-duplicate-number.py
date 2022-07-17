@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=287 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def findDuplicate(self, nums: list[int]) -> int:
         # use slow-fast pointers to detect cycle

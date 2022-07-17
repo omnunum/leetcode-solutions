@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=424 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import defaultdict
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:

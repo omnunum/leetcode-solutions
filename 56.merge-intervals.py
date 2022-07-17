@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=56 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # Are they sorted on the way in?
 # Can we modify in place
 

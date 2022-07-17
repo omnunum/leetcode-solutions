@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=283 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def moveZeroes(self, nums: list[int]) -> None:
         """

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=14 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         if not strs:

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=803 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import deque
 class Solution:
     def findCheapestPrice(self, n: int, flights: list[list[int]], src: int, dst: int, k: int) -> int:

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=138 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 """
 # Definition for a Node.
 class Node:

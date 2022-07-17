@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=152 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def maxProduct(self, nums: list[int]) -> int:
         min_local = float("inf")

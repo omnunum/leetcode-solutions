@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=567 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import Counter, defaultdict
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:

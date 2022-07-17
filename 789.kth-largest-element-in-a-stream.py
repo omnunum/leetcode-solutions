@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=789 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # T = 15min
 import heapq
 class KthLargest:

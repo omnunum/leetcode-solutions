@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=53 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def maxSubArray(self, nums: list[int]) -> int:
         highest_sum = nums[0]

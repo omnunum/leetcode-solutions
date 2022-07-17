@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=20 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def isValid(self, s: str) -> bool:
         if len(s) == 1:

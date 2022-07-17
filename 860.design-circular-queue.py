@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=860 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class MyCircularQueue:
 
     def __init__(self, k: int):

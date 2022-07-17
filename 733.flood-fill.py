@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=733 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def floodFill(self, image: list[list[int]], sr: int, sc: int, newColor: int) -> list[list[int]]:
         y_bounds = len(image) - 1

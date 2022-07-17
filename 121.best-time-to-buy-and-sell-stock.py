@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=121 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def maxProfit(self, prices: list[int]) -> int:
         low, maxi = float("inf"), 0

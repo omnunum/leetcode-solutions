@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=251 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Vector2D:
 
     def __init__(self, vec: list[list[int]]):

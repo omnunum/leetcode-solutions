@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=347 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import defaultdict
 import heapq
 class Solution:

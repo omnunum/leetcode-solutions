@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1036 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # scan through matrix
 # each time orange found
     # add to counted, add to visited

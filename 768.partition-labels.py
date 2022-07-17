@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=768 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     # really just two steps
     # find start and end of each characters occurance index range

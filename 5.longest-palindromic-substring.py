@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=5 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # True if 
     # even len and first half is same as inverse order second half
     # odd len and first half floored is same as that + 1 to end inverted

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=265 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def minCostII(self, costs: list[list[int]]) -> int:
         dp = costs[0]

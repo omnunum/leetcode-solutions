@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=39 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def combinationSum(self, candidates: list[int], target: int) -> list[list[int]]:
         stack, combs = [], []      

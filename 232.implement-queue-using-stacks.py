@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=232 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class MyQueue:
 
     def __init__(self):

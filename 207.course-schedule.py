@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=207 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import deque, defaultdict
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:

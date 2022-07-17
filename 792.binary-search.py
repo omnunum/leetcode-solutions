@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=792 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def search(self, nums: list[int], target: int) -> int:
         def split(li, ri):

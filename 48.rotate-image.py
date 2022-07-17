@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=48 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from math import ceil
 class Solution:
   def rotate(self, matrix: list[list[int]]) -> None:

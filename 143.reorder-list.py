@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=143 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

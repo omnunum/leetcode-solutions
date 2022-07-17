@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=198 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def rob(self, nums: list[int]) -> int:
         l2, l1 = 0, 0

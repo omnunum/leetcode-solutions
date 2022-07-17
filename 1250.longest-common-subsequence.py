@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1250 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         n, m = len(text1), len(text2)

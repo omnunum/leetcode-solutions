@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=322 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     from functools import cache
     def coinChange(self, A: list[int], T: int) -> int:

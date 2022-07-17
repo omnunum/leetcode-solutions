@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=36 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # iterte through each cell, if current cells value has been in the same col row or section then fail
 from itertools import product
 from collections import defaultdict

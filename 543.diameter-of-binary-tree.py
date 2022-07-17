@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=543 lang='python3'
 #
@@ -6,12 +5,11 @@
 #
 
 # @lc code=start
-        
 # T = A fucking hour
 class Solution:
     maxd = 0
     
-    def recurse(self, node) -> int:
+    def recurse(self, node: TreeNode) -> int:
             if node is None:
                 return 0
             left = self.recurse(node.left)
@@ -20,7 +18,7 @@ class Solution:
                 self.maxd = m
             return max(left, right) + 1
         
-    def diameterOfBinaryTree(self, root) -> int:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         d = self.recurse(root)
         return self.maxd
                 

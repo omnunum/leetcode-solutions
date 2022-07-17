@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1127 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 import heapq
 class Solution:
     def lastStoneWeight(self, stones: list[int]) -> int:

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=26 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
         if nums == []:

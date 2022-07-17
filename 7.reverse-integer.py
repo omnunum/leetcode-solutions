@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=7 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def reverse(self, x: int) -> int:
         flip = (x < 0)

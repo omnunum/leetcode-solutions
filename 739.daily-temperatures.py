@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=739 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def dailyTemperatures(self, temperatures: list[int]) -> list[int]:
         output = [0]*len(temperatures)

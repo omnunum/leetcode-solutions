@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=200 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def numIslands(self, grid: list[list[str]]) -> int:
         m = len(grid)

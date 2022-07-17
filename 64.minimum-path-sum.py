@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=64 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from functools import cache
 class Solution:
     

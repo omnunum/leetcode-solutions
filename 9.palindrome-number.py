@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=9 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 import math
 class Solution:
     def isPalindrome(self, x: int) -> bool:

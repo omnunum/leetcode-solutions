@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=883 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def carFleet(self, target: int, position: list[int], speed: list[int]) -> int:
         n = len(position)

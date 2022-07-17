@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=128 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
         match len(nums):

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=215 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 
 class Solution:
     def findKthLargest(self, nums: list[int], k: int) -> int:

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=355 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 
 # T = 38
 from heapq import *

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=295 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from heapq import * 
 # Are stream items unique
 class MedianFinder:

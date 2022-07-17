@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=57 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def insert(self, intervals: list[list[int]], newInterval: list[int]) -> list[list[int]]:        
         s, e = newInterval

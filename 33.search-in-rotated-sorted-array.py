@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=33 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # [4,5,6,7,0,1,2] -> [0,1,2,4,5,6,7]
 class Solution:
     def search(self, nums: list[int], target: int) -> int:

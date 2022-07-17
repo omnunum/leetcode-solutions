@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=15 lang='python3'
 #
@@ -6,8 +5,7 @@
 #
 
 # @lc code=start
-        
-from collections import defaultdict
+from itertools import combinations
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         trips = set()

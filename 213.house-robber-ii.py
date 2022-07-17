@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=213 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # S(i) = find the sum of the maximal path from house i to the last valid house
 # S(i) = max(w(i) + S(i+2), w(i+1) + S(i+3))
 # Boundary Case = S(-1) = w(-1), S(-2) = w(-2)

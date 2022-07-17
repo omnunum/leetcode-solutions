@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=66 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     # # conversion therapy
     # def plusOne(self, digits: list[int]) -> list[int]:

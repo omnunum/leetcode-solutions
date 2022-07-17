@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=136 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def singleNumber(self, nums: list[int]) -> int:
         found = 0

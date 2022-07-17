@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=300 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def lengthOfLIS(self, nums: list[int]) -> int:
         q = [nums[0]]

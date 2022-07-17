@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=49 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import defaultdict
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:

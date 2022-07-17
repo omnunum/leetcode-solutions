@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=78 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # from itertools import chain, combinations
 class Solution:
     def subsets(self, nums: list[int]) -> list[list[int]]:

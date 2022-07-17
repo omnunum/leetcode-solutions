@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=4 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def sort_zip(self, left, right):
         ln, rn = len(left), len(right)

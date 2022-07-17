@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=63 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     from functools import cache
     def uniquePathsWithObstacles(self, obstacleGrid: list[list[int]]) -> int:

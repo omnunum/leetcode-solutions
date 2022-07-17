@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=309 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from dataclasses import dataclass
 @dataclass
 class State:

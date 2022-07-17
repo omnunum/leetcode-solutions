@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=46 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from itertools import permutations
 class Solution:
     def permute(self, nums: list[int]) -> list[list[int]]:

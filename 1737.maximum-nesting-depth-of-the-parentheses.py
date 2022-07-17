@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1737 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def maxDepth(self, s: str) -> int:
         max_opens = 0

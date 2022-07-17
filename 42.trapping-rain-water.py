@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=42 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from collections import Counter
 class Solution:
     def trap(self, height: list[int], recurse=True) -> int:

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=62 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from functools import cache
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:

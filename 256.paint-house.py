@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=256 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # goal: minimize cost of painting houses such that no adjacent houses have the same paint color
 # S(n) = min(c[i]) + S(i+1)
 # costs = [[3,2,17],[5,3,17],[6,3,5]]

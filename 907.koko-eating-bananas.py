@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=907 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from math import ceil
 class Solution:
     def minEatingSpeed(self, piles: list[int], h: int) -> int:

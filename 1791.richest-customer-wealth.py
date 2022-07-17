@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=1791 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def maximumWealth(self, accounts: list[list[int]]) -> int:
         return max([sum(w) for w in accounts])

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=140 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 # iterate through wordDict
 # check if s begins with word
 # if yes then split s into prefix and suffix

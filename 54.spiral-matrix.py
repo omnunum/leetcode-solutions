@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=54 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from itertools import cycle
 class Solution:
     def spiralOrder(self, matrix: list[list[int]]) -> list[int]:

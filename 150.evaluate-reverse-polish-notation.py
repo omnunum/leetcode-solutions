@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=150 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from operator import add, sub, mul
 from math import ceil, floor
 class Solution:

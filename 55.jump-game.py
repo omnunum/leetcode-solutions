@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=55 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:    
     def canJump(self, nums: list[int]) -> bool:
         n, curr, prev = len(nums) - 1, 0, 0

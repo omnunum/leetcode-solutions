@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=155 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class MinStack:
 
     def __init__(self):

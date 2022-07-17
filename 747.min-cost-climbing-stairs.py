@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=747 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from functools import lru_cache
 class Solution:
     def minCostClimbingStairs(self, cost: list[int]) -> int:

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=217 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         existing = set()

@@ -1,4 +1,3 @@
-
 #
 # @lc app=leetcode id=74 lang='python3'
 #
@@ -6,7 +5,6 @@
 #
 
 # @lc code=start
-        
 from math import ceil
 class Solution:
     def searchMatrix(self, matrix: list[list[int]], target: int) -> bool:

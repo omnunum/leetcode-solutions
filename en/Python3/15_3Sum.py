@@ -1,7 +1,7 @@
 # @algorithm @lc id=15 lang=python3
 # @title 3sum
 from en.Python3.mod.preImport import *
-from itertools import combinations
+from collections import defaultdict
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         trips = set()

@@ -8,24 +8,26 @@ from en.Python3.mod.preImport import *
 #         self.left = left
 #         self.right = right
 class Solution:
-    def traverse(self, node: TreeNode) -> (int|float, int|float):
-        if not node:
-            return float("inf"), float("-inf")
-        
-        left_min, left_max = self.traverse(node.left)
-        right_min, right_max = self.traverse(node.right)
-        
-        if left_max >= node.val:
-            raise ValueError(f"node {node.val} has a node in its left subtree of {left_max}, which is greater than or equal to its val")
-        if right_min <= node.val:
-            raise ValueError(f"node {node.val} has a value in its right subtree of {left_max}, which is less than or equal to its val")
-        
-        return min(left_min, right_min, node.val), max(left_max, right_max, node.val)
-
-    def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        try:
-            self.traverse(root)
-            return True
-        except ValueError:
-            return False
+# @test([2,1,3])=true
+# @test([5,4,6,null,null,3,7])=false
+    def isValidBST(self, root: TreeNode = None) -> bool:
+        # The root node will always be valid, because it will
+        # not need to be les or greater than anything.
+        q = [(root, float("-inf"), float("inf"))]
+        while q:
+            node, min_seen, max_seen = q.pop()
+            # Make sure we are still within the constraints
+            if not min_seen < node.val < max_seen:
+                return False
+            # If we go left, then that node needs to be greater than
+            # the minimum we've seen so far, and less than this node.
+            # When travelling fully left biased, we will always be passing
+            # along the initial min_see, which was -inf, because the fully
+            # left node doesn't need to be greater than anything.
+            if node.left is not None:
+                q.append((node.left, min_seen, node.val))
+            # Vice versa for the right side.
+            if node.right is not None:
+                q.append((node.right, node.val, max_seen))
+        return True
             

@@ -2,7 +2,6 @@
 # @title random-pick-with-weight
 from en.Python3.mod.preImport import *
 import random
-import random
 from bisect import bisect_left
 class Solution:
     def __init__(self, w: List[int]):
